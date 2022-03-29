@@ -1,3 +1,124 @@
-body {
-    color:green;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Oswald', sans-serif;
+}
+li, p, a {
+    font-family:'Raleway', sans-serif;
+}
+#navigation {
+    width:85%;
+    margin:1em auto;
+    overflow:auto;
+}
+#navigation a {
+    text-decoration:none;
+}
+#navigation li {
+    list-style:none;
+}
+#navigation h1 {
+    float:left;
+    width:50%;
+    text-transform:uppercase;
+}
+#navigation h1 a {
+    font-family:'Oswald', sans-serif;
+    color:#96746b;
+}
+#navigation ul {
+    float:left;
+    width:50%;
+    text-align:right;
+    margin-top:1em;
+}
+#navigation ul li {
+    display:inline-block;
+    margin-left:1em;
+    font-weight:700;
+}
+#navigation ul li a {
+    color:#19100F;
+}
+
+#banner {
+    width:100%;
+    height:670px;
+    background-image:url('images/banner-bg.jpg');
+    background-position:center center;
+    background-size: cover;
+    position:relative;
+}
+#banner h2 {
+    color:#c7a17a;
+    font-size:4em;
+    text-transform:uppercase;
+}
+#banner h2 span {
+    color:#96746b;
+}
+.banner-text {
+    color:#fff;
+    width:45%;
+    position:absolute;
+    top:50%;
+    left:7.5%;
+    transform:translateY(-50%);
+}
+.banner-text a {
+    color:#fff;
+    font-weight:700;
+    text-decoration:none;
+    padding:1em;
+    background-color:#312a26;
+    margin-top:1em;
+    display:inline-block;
+}
+
+.ads {
+    width:85%;
+    margin:4em auto;
+    overflow:auto;
+}
+.ads-item {
+    width:48.5%;
+    float:left;
+    margin-right:3%;
+    height:350px;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+}
+.ads-item1 {
+    background-image:url('images/ads-img1.jpg');
+}
+.ads-item2 {
+    background-image:url('images/ads-img2.jpg');
+    margin-right:0;
+}
+.ads-text h3 {
+    color:#fff;
+    font-size:2em;
+    text-transform:uppercase;
+    text-shadow:4px 4px 7px #312a26;
+}
+.ads-text a {
+    color:#fff;
+    font-weight:700;
+    text-transform:uppercase;
+    text-shadow:3px 3px 5px #312a26;
+}
+.ads-text {
+    width:40%;
+    position:absolute;
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+}
+
