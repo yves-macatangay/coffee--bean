@@ -9,7 +9,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family:'Oswald', sans-serif;
 }
-li, p, a {
+li, p, a, label, input, td, th {
     font-family:'Raleway', sans-serif;
 }
 #navigation {
@@ -221,4 +221,136 @@ li, p, a {
 .ads-item6 {
     background-image:url('images/ads-img6.jpg');
     margin-right:0;
+}
+
+#reservation {
+    width:85%;
+    margin:2em auto;
+    overflow:auto;
+}
+.form-group {
+    float:left;
+    width:48.5%;
+    margin-right:1%;
+    font-weight:700;
+    height:650px;
+    background-color:#f2f2f2;
+    padding:2em;
+}
+.form-group2 {
+    margin-right:0;
+}
+.form-group label, .form-group input, 
+.form-group textarea, .form-group select {
+    display:block;
+    width:100%;
+}
+.form-group input, 
+.form-group textarea, .form-group select {
+    padding:1em;
+    margin-bottom:1em;
+}
+.form-group label {
+    padding-bottom:0.5em;
+}
+.form-group p, .form-group h3 {
+    text-align:center;
+    padding:1em;
+}
+#time-group {
+    text-align:center;
+}
+#time-group input, #time-group label {
+    display:inline;
+    width:auto;
+}
+
+.form-group h3 {
+    text-transform:uppercase;
+}
+.form-group h3::after {
+    content:"";
+    width:150px;
+    height:30px;
+    background-image:url('images/reservation-cards.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:block;
+    margin:auto;
+}
+
+#terms-group label, #terms-group input {
+    width:auto;
+    display:inline;
+}
+
+form input[type="submit"] {
+    text-transform:uppercase;
+    font-weight:700;
+    background-color:#c7a17a;
+    margin-top:0.5em;
+}
+
+#footer {
+    width:100%;
+    background-image:url('images/footer-img.jpg');
+    background-size:cover;
+    background-position:center center;
+    padding:2em 0;
+    margin-top:4em;
+}
+.footer-content {
+    width:85%;
+    margin:0 auto;
+    overflow:auto;
+}
+.footer-widget {
+    width:22.75%;
+    margin-right:3%;
+    float:left;
+}
+.footer-content :nth-child(4) {
+    margin-right:0;
+}
+.footer-content h3 {
+    text-shadow:3px 3px 6px #312a26;
+    color:#fff;
+    text-transform:uppercase;
+    padding:1em 0;
+}
+.footer-content td, .footer-content th {
+    text-shadow:2px 2px 3px #312a26;
+    color:#fff;
+}
+.footer-content h4 {
+    color:#fff;
+}
+.footer-content p {
+    color:#c7a17a;
+}
+.footer-content input {
+    width:100%;
+    padding:1em;
+    display:block;
+}
+.footer-content input[type="submit"] {
+    width:auto;
+}
+
+#footer-social {
+    background-color:#19100F;
+    color:#fff;
+    overflow:auto;
+    padding:1em 0;
+}
+#footer-social img {
+    height:1.5em;
+}
+#footer-social h3 {
+    text-transform:uppercase;
+}
+.social-widget {
+    float:left;
+    width:33.33%;
+    text-align:center;
 }
